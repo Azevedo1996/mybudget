@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 
 # import from folders
-from app import app
+from .app import app
 from components import sidebar, dashboards, extratos
 
 # DataFrames and Streamlit Caching
